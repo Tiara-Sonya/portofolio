@@ -151,6 +151,16 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .section-title {
+      margin: 0.5rem 0 1.5rem; /* Further reduce margin for mobile */
+  }
+
+  #skills-education {
+      padding: 3rem 0; /* Less padding for mobile */
+  }
+}
+
 /* Mobile Size */
 @media screen and (max-width: 640px) {
   /* Titles */
@@ -196,6 +206,13 @@
     gap: 1rem;
   }
 
+  
+  .abouts-right img {
+    width: 45%;
+    margin-bottom: 2rem;
+  }
+
+
   /* Footer */
   footer {
     padding: 2rem 0;
@@ -239,4 +256,3 @@
     font-size: 0.8rem; 
   }
 }
-
